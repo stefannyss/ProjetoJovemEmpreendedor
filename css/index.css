@@ -1,11 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&family=Shadows+Into+Light&display=swap');
-
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-.imagemFundo{
+.imagemFundo {
     display: inline;
     float: left;
     height: 950px;
@@ -16,30 +15,30 @@
     position: absolute;
     text-align: justify;
     margin-left: 29%;
-    margin-right: auto;
     margin-top: 5%;
 }
 
-.tituloProjeto .p1{
+.tituloProjeto .p1 {
     font-weight: bold;
     font-family: 'Oswald', sans-serif;
     color: brown;
     font-size: 42px;
 }
-.tituloProjeto .p2{
+
+.tituloProjeto .p2 {
     font-weight: bold;
     font-family: 'Oswald', sans-serif;
     color: rgb(44, 44, 44);
     font-size: 42px;
 }
 
-.tituloProjeto .p3{
-
+.tituloProjeto .p3 {
     font-family: 'Oswald', sans-serif;
     color: rgb(44, 44, 44);
     font-size: 24px;
 }
-.areaMenu{
+
+.areaMenu {
     text-align: center;
     display: inline;
     float: right;
@@ -48,63 +47,64 @@
     background-color: rgba(216, 216, 216, 0.329);
 }
 
-.conteudo{
+.conteudo {
     text-align: center;
     font-family: 'Oswald', sans-serif;
     display: inline-block;
-    width:100%;
+    width: 100%;
     height: 40%;
     background-color: white;
 }
-.video{
+
+.video {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     flex-direction: column;
     text-align: center;
     display: inline-block;
-    width:100%;
+    width: 100%;
     height: 40%;
     margin-bottom: 5%;
     background-color: white;
 }
 
-.divVideo{
+.divVideo {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-.banner{
+.banner {
     text-align: center;
     margin: 0;
     display: inline-block;
-    width:100%;
+    width: 100%;
     height: 30%;
     background-image: url(../img/empreendedor.jpg);
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
 }
 
-.rodape{
+.rodape {
     text-align: center;
     margin: 0;
     display: inline-block;
-    width:100%;
+    width: 100%;
     height: 20%;
     background-color: white;
 }
 
 form {
-    margin-top:50px ;
+    margin-top: 20%;
     font-family: 'Oswald', sans-serif;
     text-align: center;
     border-radius: 15px;
     background-color: transparent;
 }
-.imgForm{
-    margin-top: 10px;
-    height: 110px;
+
+.imgForm {
+    height: 25%;
     width: 40%;
 }
 
@@ -113,16 +113,16 @@ input {
     border: 1px solid rgb(150, 150, 150);
     border-radius: 10px;
     padding: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 3%;
     font-size: 16px;
 }
 
-select{
+select {
     width: 64%;
     border: 1px solid rgb(150, 150, 150);
     border-radius: 10px;
     padding: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 3%;
     font-size: 16px;
 }
 
@@ -136,30 +136,30 @@ select{
     color: white;
     font-weight: bold;
     width: 40%;
-    height: 45px;
-    margin-left:30%;
+    height: 40px;
+    margin-left: 30%;
     background-color: red;
 }
 
 .btCadastro:hover {
     background-color: rgb(230, 49, 49);
 }
-.titulo {
+
+.tituloform {
     color: rgb(44, 44, 44);
     font-size: 24px;
     font-family: 'Oswald', sans-serif;
-    margin-bottom: 10px;
+    margin-bottom: 3%;
 }
 
-.subtitulo {
+.subtituloform {
     color: rgb(44, 44, 44);
     font-size: 20px;
     font-family: 'Oswald', sans-serif;
-    margin-bottom: 20px;
+    margin-bottom: 5%;
 }
 
 h1 {
-
     margin-right: auto;
     margin-left: auto;
     padding: 120px;
@@ -167,10 +167,9 @@ h1 {
     font-size: 24px;
     width: 30%;
     font-family: 'Oswald', sans-serif;
-
 }
 
-.card1{
+.card1 {
     display: inline-block;
     background-color: transparent;
     height: 30%;
@@ -178,7 +177,8 @@ h1 {
     margin-left: 15%;
     margin-right: 15%;
 }
-.card2{
+
+.card2 {
     display: inline-block;
     background-color: transparent;
     height: 30%;
@@ -186,20 +186,20 @@ h1 {
     margin-right: 15%;
 }
 
-.tituloCard{
+.tituloCard {
     color: red;
     text-align: justify;
     font-size: 20px;
     font-family: 'Oswald', sans-serif;
 }
 
-.conteudoCard{
+.conteudoCard {
     text-align: justify;
     font-size: 16px;
     font-family: 'Oswald', sans-serif;
 }
 
-.imgRodape{
+.imgRodape {
     margin-top: 10px;
     margin-right: 60px;
 }
@@ -222,21 +222,21 @@ h1 {
     transform: translate3d(0px, 0px, 0px);
 }
 
-.subtituloBanner{
+.subtituloBanner {
     margin-top: 20px;
     font-family: 'Oswald', sans-serif;
     font-size: 26px;
     color: brown;
 }
 
-.tituloBanner{
+.tituloBanner {
     margin-top: 40px;
     font-family: 'Oswald', sans-serif;
     font-size: 30px;
     color: brown;
 }
 
-.btBanner{
+.btBanner {
     border-radius: 25px;
     margin-top: 40px;
     font-size: 24px;
@@ -247,5 +247,4 @@ h1 {
     width: 25%;
     height: 65px;
     background-color: white;
-
 }
