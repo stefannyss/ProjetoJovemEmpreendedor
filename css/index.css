@@ -12,13 +12,40 @@
     width: 70%;
 }
 
+.tituloProjeto {
+    position: absolute;
+    text-align: justify;
+    margin-left: 27%;
+    margin-right: auto;
+    margin-top: 5%;
+}
+
+.tituloProjeto .p1{
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    color: brown;
+    font-size: 42px;
+}
+.tituloProjeto .p2{
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    color: rgb(44, 44, 44);
+    font-size: 42px;
+}
+
+.tituloProjeto .p3{
+
+    font-family: 'Oswald', sans-serif;
+    color: rgb(44, 44, 44);
+    font-size: 24px;
+}
 .areaMenu{
     text-align: center;
     display: inline;
     float: right;
     width: 30%;
     height: 950px;
-    background-color: rgba(209, 209, 209, 0.712);
+    background-color: rgba(216, 216, 216, 0.329);
 }
 
 .conteudo{
@@ -102,6 +129,7 @@ select{
     display: block;
     text-align: center;
     border: none;
+    border-radius: 15px;
     font-family: 'Oswald', sans-serif;
     color: white;
     font-weight: bold;
@@ -109,6 +137,10 @@ select{
     height: 45px;
     margin-left: 180px;
     background-color: red;
+}
+
+.btCadastro:hover {
+    background-color: rgb(230, 49, 49);
 }
 .titulo {
     color: rgb(44, 44, 44);
