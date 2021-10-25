@@ -26,7 +26,6 @@
 }
 
 .areaform {
-    max-width: 600px;
     text-align: center;
     display: inline-block;
     width: 100%;
@@ -204,11 +203,11 @@ h1 {
 }
 
 [data-animacao="left"] {
-    transform: translate3d(-50px, 0px, 0px);
+    transform: translate3d(-2px, 0px, 0px);
 }
 
 [data-animacao="right"] {
-    transform: translate3d(50px, 0px, 0px);
+    transform: translate3d(2px, 0px, 0px);
 }
 
 [data-animacao].animacao {
