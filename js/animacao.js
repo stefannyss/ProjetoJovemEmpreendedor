@@ -16,5 +16,4 @@ AnimacaoScroll();
 
 window.addEventListener('scroll', function () {
     AnimacaoScroll();
-});
-
+})

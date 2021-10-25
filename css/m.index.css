@@ -1,51 +1,38 @@
+@media only screen and (max-width: 600px){
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&family=Shadows+Into+Light&display=swap');
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-.imagemFundo {
-    display: inline;
-    float: left;
-    height: 950px;
-    width: 75%;
-}
-
 .tituloProjeto {
     position: absolute;
     text-align: justify;
-    margin-left: 12%;
-    margin-top: 25%;
 }
 
 .tituloProjeto .p1 {
     font-weight: bold;
     font-family: 'Oswald', sans-serif;
     color: brown;
-    font-size: 42px;
+    font-size: 5px;
 }
 
 .tituloProjeto .p2 {
     font-weight: bold;
     font-family: 'Oswald', sans-serif;
-    color: white;
-    font-size: 42px;
+    color: rgb(44, 44, 44);
+    font-size: 5px;
 }
 
 .tituloProjeto .p3 {
     font-family: 'Oswald', sans-serif;
-    color: white;
-    font-size: 24px;
+    color: rgb(44, 44, 44);
+    font-size: 5px;
 }
 
-.areaMenu {
+.areaform {
     text-align: center;
-    display: inline;
-    float: right;
-    width: 25%;
-    height: 950px;
-    background-color: rgba(216, 216, 216, 0.329);
+    display: inline-block;
+    width: 100%;
+    height: 800px;
+    background-image: url(../img/empreendedor1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .conteudo {
@@ -87,9 +74,6 @@
     background-size: cover;
 }
 
-<<<<<<< HEAD
-
-=======
 .rodape {
     text-align: center;
     margin: 0;
@@ -98,10 +82,10 @@
     height: 20%;
     background-color: white;
 }
->>>>>>> 171f612762db907acfaddc899c2cb49a7972de40
 
 form {
-    margin-top: 20%;
+    opacity: 80%;
+    margin-top: 2%;
     font-family: 'Oswald', sans-serif;
     text-align: center;
     border-radius: 15px;
@@ -151,44 +135,48 @@ select {
 }
 
 .tituloform {
-    color: rgb(44, 44, 44);
+    color: white;
     font-size: 24px;
     font-family: 'Oswald', sans-serif;
     margin-bottom: 3%;
 }
 
 .subtituloform {
-    color: rgb(44, 44, 44);
+    color: white;
     font-size: 20px;
     font-family: 'Oswald', sans-serif;
     margin-bottom: 5%;
 }
 
 h1 {
-    margin-right: auto;
-    margin-left: auto;
-    padding: 120px;
+    margin-top: 5%;
+    margin-bottom: 5%;
     color: brown;
-    font-size: 24px;
-    width: 30%;
+    font-size: 20px;
+    width: 100%;
     font-family: 'Oswald', sans-serif;
 }
 
 .card1 {
-    display: inline-block;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display:block;
     background-color: transparent;
     height: 30%;
-    width: 25%;
-    margin-left: 15%;
-    margin-right: 15%;
+    width: 100%;
+    margin-left:auto;
+    margin-right: auto;
 }
 
 .card2 {
+    margin-top: 5%;
+    margin-bottom: 5%;
     display: inline-block;
     background-color: transparent;
     height: 30%;
-    width: 25%;
-    margin-right: 15%;
+    width: 100%;
+    margin-left:auto;
+    margin-right: auto;
 }
 
 .tituloCard {
@@ -203,36 +191,10 @@ h1 {
     font-size: 16px;
     font-family: 'Oswald', sans-serif;
 }
-<<<<<<< HEAD
-.rodape{
-    display: flex;
-    flex-direction:row; 
-    margin: 0;
-    width:100%;
-    height: 100px;
-    background-color: white;
-}
-.imgRodape{
-=======
 
 .imgRodape {
->>>>>>> 171f612762db907acfaddc899c2cb49a7972de40
     margin-top: 10px;
-    margin-right: 100px;
-  
-}
-.redessociais ul{
-        display: flex;
-  
-        
-}
-
-ul{
-    margin-block-start: 2em;
-    padding-inline-start: 60px;
-    margin-left: 800px;
-    list-style: none;
- 
+    margin-right: 60px;
 }
 
 [data-animacao] {
@@ -241,11 +203,11 @@ ul{
 }
 
 [data-animacao="left"] {
-    transform: translate3d(-50px, 0px, 0px);
+    transform: translate3d(-2px, 0px, 0px);
 }
 
 [data-animacao="right"] {
-    transform: translate3d(50px, 0px, 0px);
+    transform: translate3d(2px, 0px, 0px);
 }
 
 [data-animacao].animacao {
@@ -275,13 +237,8 @@ ul{
     border: 2px solid red;
     font-family: 'Oswald', sans-serif;
     color: black;
-    width: 25%;
-    height: 65px;
-<<<<<<< HEAD
-    background-color: red;
-
-}
-=======
+    width: 60%;
+    height: 40%;
     background-color: white;
 }
->>>>>>> 171f612762db907acfaddc899c2cb49a7972de40
+}
