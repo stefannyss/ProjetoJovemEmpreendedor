@@ -1,0 +1,245 @@
+@media only screen and (max-width: 600px){
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&family=Shadows+Into+Light&display=swap');
+.tituloProjeto {
+    position: absolute;
+    text-align: justify;
+}
+
+.tituloProjeto .p1 {
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    color: brown;
+    font-size: 5px;
+}
+
+.tituloProjeto .p2 {
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    color: rgb(44, 44, 44);
+    font-size: 5px;
+}
+
+.tituloProjeto .p3 {
+    font-family: 'Oswald', sans-serif;
+    color: rgb(44, 44, 44);
+    font-size: 5px;
+}
+
+.areaform {
+    max-width: 600px;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    height: 800px;
+    background-image: url(../img/empreendedor1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.conteudo {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    display: inline-block;
+    width: 100%;
+    height: 40%;
+    background-color: white;
+}
+
+.video {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    height: 40%;
+    margin-bottom: 5%;
+    background-color: white;
+}
+
+.divVideo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.banner {
+    text-align: center;
+    margin: 0;
+    display: inline-block;
+    width: 100%;
+    height: 30%;
+    background-image: url(../img/empreendedor.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.rodape {
+    text-align: center;
+    margin: 0;
+    display: inline-block;
+    width: 100%;
+    height: 20%;
+    background-color: white;
+}
+
+form {
+    opacity: 80%;
+    margin-top: 2%;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    border-radius: 15px;
+    background-color: transparent;
+}
+
+.imgForm {
+    height: 25%;
+    width: 40%;
+}
+
+input {
+    width: 60%;
+    border: 1px solid rgb(150, 150, 150);
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 3%;
+    font-size: 16px;
+}
+
+select {
+    width: 64%;
+    border: 1px solid rgb(150, 150, 150);
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 3%;
+    font-size: 16px;
+}
+
+.btCadastro {
+    font-size: 18px;
+    display: block;
+    text-align: center;
+    border: none;
+    border-radius: 15px;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-weight: bold;
+    width: 40%;
+    height: 40px;
+    margin-left: 30%;
+    background-color: red;
+}
+
+.btCadastro:hover {
+    background-color: rgb(230, 49, 49);
+}
+
+.tituloform {
+    color: white;
+    font-size: 24px;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 3%;
+}
+
+.subtituloform {
+    color: white;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 5%;
+}
+
+h1 {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: brown;
+    font-size: 20px;
+    width: 100%;
+    font-family: 'Oswald', sans-serif;
+}
+
+.card1 {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display:block;
+    background-color: transparent;
+    height: 30%;
+    width: 100%;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+.card2 {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: inline-block;
+    background-color: transparent;
+    height: 30%;
+    width: 100%;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+.tituloCard {
+    color: red;
+    text-align: justify;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.conteudoCard {
+    text-align: justify;
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.imgRodape {
+    margin-top: 10px;
+    margin-right: 60px;
+}
+
+[data-animacao] {
+    opacity: 0;
+    transition: .3s;
+}
+
+[data-animacao="left"] {
+    transform: translate3d(-50px, 0px, 0px);
+}
+
+[data-animacao="right"] {
+    transform: translate3d(50px, 0px, 0px);
+}
+
+[data-animacao].animacao {
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
+}
+
+.subtituloBanner {
+    margin-top: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 26px;
+    color: brown;
+}
+
+.tituloBanner {
+    margin-top: 40px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    color: brown;
+}
+
+.btBanner {
+    border-radius: 25px;
+    margin-top: 40px;
+    font-size: 24px;
+    text-align: center;
+    border: 2px solid red;
+    font-family: 'Oswald', sans-serif;
+    color: black;
+    width: 60%;
+    height: 40%;
+    background-color: white;
+}
+}
