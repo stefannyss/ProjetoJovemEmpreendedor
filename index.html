@@ -19,18 +19,17 @@
             <input type="text" placeholder="Nome" required>
             <input type="email" placeholder="E-mail" required>
             <input type="tel" placeholder="Telefone" required>
-            <input type="date" placeholder="Data de Nascimento">
+            <input type="text" placeholder="Data de Nascimento" onfocus="(this.type='date')" onblur="if(this.value==''){this.type='text'}" required>
             <input type="text" placeholder="Escola">
             <select required>
                 <option selected disabled value="">Ano que está cursando</option>
-                <option>Primeiro Ano</option>
                 <option>Segundo Ano</option>
                 <option>Terceiro Ano</option>
               </select>
             <input type="text" placeholder="Cidade">
-            <input type="text" placeholder="Primeira opção de curso para graduação">
+            <input type="text" placeholder="Primeira opção de curso para graduação" required>
             <input type="text" placeholder="Segunda opção de curso para graduação">
-            <input type="button" onclick="cadastroRealizado()" class="btCadastro" value="CADASTRAR">
+            <button class="btCadastro" type="submit">CADASTRAR</button>
         </form>
     </div>
     <div class="conteudo">
@@ -91,21 +90,18 @@
             <iframe data-animacao="right" height="400" width="400" src="videoXP.mp4"></iframe>
         </div>
     </div>
-    <div>    <a href="#top" class="glyphicon glyphicon-chevron-up"></a></div>
     <div class="banner">
         <p class="tituloBanner">SEJA UM JOVEM EMPREENDEDOR</p>
         <p class="subtituloBanner">INSCREVA-SE JÁ!</p>
-        <input type="button"  id="voltaraotopo" class="btBanner" value="QUERO ME INSCREVER!">
+        <input type="button" class="btBanner" value="QUERO ME INSCREVER!">
     </div>
     <div class="rodape">
         <img class="imgRodape" src="img/upfrodape.jpg" alt="">
         <img class="imgRodape" src="img/upfextensao.jpg" alt="">
         <img class="imgRodape" src="img/manager.jpg" alt="">
     </div>
-</body>
 
+</body>
 <script type="text/javascript" src="js/animacao.js"></script>
-<script type="text/javascript" src="js/alert.js"></script>
-<script type="text/javascript" src="js/voltaraotopo.js"></script>
-<!---js-->
+
 </html>
