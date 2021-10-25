@@ -9,13 +9,13 @@
     display: inline;
     float: left;
     height: 950px;
-    width: 70%;
+    width: 75%;
 }
 
 .tituloProjeto {
     position: absolute;
     text-align: justify;
-    margin-left: 27%;
+    margin-left: 29%;
     margin-right: auto;
     margin-top: 5%;
 }
@@ -43,7 +43,7 @@
     text-align: center;
     display: inline;
     float: right;
-    width: 30%;
+    width: 25%;
     height: 950px;
     background-color: rgba(216, 216, 216, 0.329);
 }
@@ -126,6 +126,7 @@ select{
 }
 
 .btCadastro {
+    font-size: 18px;
     display: block;
     text-align: center;
     border: none;
@@ -135,7 +136,7 @@ select{
     font-weight: bold;
     width: 40%;
     height: 45px;
-    margin-left: 180px;
+    margin-left:30%;
     background-color: red;
 }
 
@@ -171,17 +172,17 @@ h1 {
 .card1{
     display: inline-block;
     background-color: transparent;
-    height: 200px;
+    height: 30%;
     width: 25%;
-    margin-left: 100px;
-    margin-right: 400px;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 .card2{
     display: inline-block;
     background-color: transparent;
-    height: 200px;
+    height: 30%;
     width: 25%;
-    margin-right: 100px;
+    margin-right: 15%;
 }
 
 .tituloCard{
@@ -239,12 +240,11 @@ h1 {
     margin-top: 40px;
     font-size: 24px;
     text-align: center;
-    border: none;
+    border: 2px solid red;
     font-family: 'Oswald', sans-serif;
-    color: white;
-    font-weight: bold;
+    color: black;
     width: 25%;
     height: 65px;
-    background-color: red;
+    background-color: white;
 
 }
