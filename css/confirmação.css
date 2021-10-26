@@ -1,0 +1,163 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.body {
+        font-family: Arial, Helvetica, sans-serif;
+       background-color: #8f7d7d;
+       font-size: 14PX;
+}
+.img{
+    width: 534px;
+    height: 310px;
+    margin-left: 50PX;
+}
+    
+
+.campo {
+    margin-top: 50px;
+    margin-left: 560px;
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 2px 3px rgb(230, 228, 228);
+    color: rgb(7, 5, 5);
+    height: 900px;
+    width: 910px;
+    padding: 20px;
+    border-color: black;
+    border-top: 3px solid transparent;
+    border-image: linear-gradient(to right, green, yellow, red);
+    border-image-slice: 1;
+    margin-bottom: 50px;
+    display: inline-block;
+}
+h2{
+    margin-top: 30px;
+}
+#hexagono {
+   width: 95px;
+   height: 105px;
+   background-color: #d3cf1c;
+   position: relative;
+   margin-top: 100px;
+   margin-left: 20px;
+}
+#hexagono:before {
+   content: "";
+   position: absolute;
+   top: 0px;
+   left: 0px;
+   width: 0;
+   height: 0;
+   border-left: 50px solid white;
+   border-right: 50px solid white;
+   border-bottom: 25px solid transparent;
+}
+#hexagono:after {
+   content: "";
+   position: absolute;
+   bottom: 0px;
+   left: 0;
+   width: 0;
+   height: 0;
+   border-left: 50px solid white;
+   border-right: 50px solid white;
+   border-top: 25px solid transparent;
+}
+     
+#hexagono2 {
+    width: 95px;
+    height: 105px;
+    background-color: #eedb22;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 120px;
+ }
+ #hexagono2:before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 0;
+    height: 0;
+    border-left: 50px solid white;
+    border-right: 50px solid white;
+    border-bottom: 25px solid transparent;
+ }
+ #hexagono2:after {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 50px solid white;
+    border-right: 50px solid white;
+    border-top: 25px solid transparent;
+ }
+
+ #hexagono3 {
+    width: 95px;
+    height: 100px;
+    background-color: #e78d30;
+    position: relative;
+    margin-top: 20px;
+    float: right;
+ }
+ #hexagono3:before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 0;
+    height: 0;
+    border-left: 50px solid white;
+    border-right: 50px solid white;
+    border-bottom: 25px solid transparent;
+ }
+ #hexagono3:after {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 50px solid white;
+    border-right: 50px solid white;
+    border-top: 25px solid transparent;
+ }
+        
+        
+ #hexagono4 {
+    width: 95px;
+    height: 100px;
+    background-color: #dc3e24;
+    position: relative;
+    margin-top: 90px;
+    float: right;
+ }
+ #hexagono4:before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 0;
+    height: 0;
+    border-left: 50px solid white;
+    border-right: 50px solid white;
+    border-bottom: 25px solid transparent;
+ }
+ #hexagono4:after {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 50px solid white;
+    border-right: 50px solid white;
+    border-top: 20px solid transparent;
+ }
+        
+        
