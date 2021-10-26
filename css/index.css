@@ -19,7 +19,7 @@
         margin-top: 25%;
     }
     .tituloProjeto .p1 {
-        font-weight: bold;
+        font-weight: bolder;
         font-family: 'Oswald', sans-serif;
         color: brown;
         font-size: 42px;
@@ -161,12 +161,12 @@
     .tituloCard {
         color: red;
         text-align: justify;
-        font-size: 20px;
+        font-size: 22px;
         font-family: 'Oswald', sans-serif;
     }
     .conteudoCard {
         text-align: justify;
-        font-size: 16px;
+        font-size: 20px;
         font-family: 'Oswald', sans-serif;
     }
     .rodape {
