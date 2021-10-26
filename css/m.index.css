@@ -1,4 +1,4 @@
-@media only screen and (max-width: 600px){
+
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&family=Shadows+Into+Light&display=swap');
 .tituloProjeto {
     position: absolute;
@@ -240,5 +240,4 @@ h1 {
     width: 60%;
     height: 40%;
     background-color: white;
-}
 }
