@@ -16,12 +16,12 @@
         position: absolute;
         text-align: justify;
         margin-left: 12%;
-        margin-top: 25%;
+        margin-top: 26%;
     }
     .tituloProjeto .p1 {
         font-weight: bolder;
         font-family: 'Oswald', sans-serif;
-        color: brown;
+        color: rgb(44, 44, 44);
         font-size: 42px;
     }
     .tituloProjeto .p2 {
@@ -225,6 +225,7 @@
         width: 25%;
         height: 65px;
         background-color: red;
+        opacity: 0.75;
     }
 }
 
@@ -402,11 +403,9 @@
         background-color: white;
     }
     .imgRodape {
+        margin-left: auto;
         margin-top: 10px;
-        margin-right: 100px;
-    }
-    .redessociais {
-        float: right;
+        margin-right: auto;
     }
     .imgRedes {
         margin-top: 15%;

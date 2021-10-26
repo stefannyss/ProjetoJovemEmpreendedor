@@ -4,11 +4,6 @@
    margin: 0;
 }
 
-.body {
-   font-family: 'Oswald', sans-serif;
-   background-color: #8f7d7d;
-}
-
 .img {
    width: 40%;
    height: 35%;
@@ -18,7 +13,7 @@
    margin: 10%;
    margin-right: auto;
    margin-left:auto;
-   background-color: white;
+   background-color: rgba(216, 216, 216, 0.329);
    border-radius: 5px;
    box-shadow: 2px 3px rgb(230, 228, 228);
    color: rgb(7, 5, 5);
