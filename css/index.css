@@ -245,7 +245,7 @@
     .tituloProjeto .p1 {
         font-weight: bold;
         font-family: 'Oswald', sans-serif;
-        color: brown;
+        color: rgb(44, 44, 44);
         font-size: 42px;
     }
     .tituloProjeto .p2 {
