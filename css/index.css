@@ -195,6 +195,7 @@
     .imgRodape {
         margin-top: 10px;
         margin-left: 110px;
+        justify-content: space-around;
     }
     .redessociais {
         float: right;
