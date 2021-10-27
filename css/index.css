@@ -21,9 +21,9 @@
     .tituloProjeto .p1 {
         font-weight: bolder;
         font-family: 'Oswald', sans-serif;
-        color: rgb(44, 44, 44);
+        color: white;
         font-size: 42px;
-        background-color: white;
+        background-color: black;
         width: 120px;
     }
     .tituloProjeto .p2 {
@@ -35,7 +35,7 @@
     .tituloProjeto .p3 {
         font-family: 'Oswald', sans-serif;
         color: white;
-        font-size: 24px;
+        font-size: 34px;
     }
     .areaMenu {
         text-align: center;
@@ -187,6 +187,7 @@
     .imgRodape {
         margin-top: 10px;
         margin-left: 110px;
+        justify-content: space-around;
     }
     .redessociais {
         float: right;
