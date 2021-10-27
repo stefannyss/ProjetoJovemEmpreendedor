@@ -7,43 +7,51 @@
 
 @media only screen and (min-width: 1200px) {
     .imagemFundo {
-        display: inline;
+        position: absolute;
         float: left;
-        height: 950px;
-        width: 75%;
+        height: 990px;
+        width: 100%;
     }
     .tituloProjeto {
+        border-radius: 15px;
+        margin-top: 25%;
+        margin-left: 10%;
         position: absolute;
         text-align: justify;
-        margin-left: 12%;
-        margin-top: 26%;
+        width: 20%;
+        height: 20%;
+        background-color: rgb(245, 245, 245,0.1);
     }
     .tituloProjeto .p1 {
+        margin-top: 1%;
+        margin-left: 5%;
         font-weight: bolder;
         font-family: 'Oswald', sans-serif;
-        color: rgb(44, 44, 44);
+        color: rgb(0, 0, 0);
         font-size: 42px;
-        background-color: white;
         width: 120px;
     }
     .tituloProjeto .p2 {
+        margin-left: 5%;
         font-weight: bold;
         font-family: 'Oswald', sans-serif;
-        color: white;
+        color: rgb(219, 219, 219);
         font-size: 42px;
     }
     .tituloProjeto .p3 {
+        margin-left: 5%;
         font-family: 'Oswald', sans-serif;
-        color: white;
+        color: rgb(219, 219, 219);
         font-size: 24px;
     }
     .areaMenu {
+        position: relative;
         text-align: center;
-        display: inline;
+        display: block;
         float: right;
         width: 25%;
-        height: 950px;
-        background-color: rgba(216, 216, 216, 0.329);
+        height: 990px;
+        background-color: rgba(119, 119, 119, 0.301);
     }
     .conteudo {
         text-align: center;
@@ -129,13 +137,13 @@
         background-color: rgb(230, 49, 49);
     }
     .tituloform {
-        color: rgb(44, 44, 44);
+        color: rgb(219, 219, 219);
         font-size: 24px;
         font-family: 'Oswald', sans-serif;
         margin-bottom: 3%;
     }
     .subtituloform {
-        color: rgb(44, 44, 44);
+        color: rgb(219, 219, 219);
         font-size: 20px;
         font-family: 'Oswald', sans-serif;
         margin-bottom: 5%;
@@ -241,10 +249,11 @@
 
 @media only screen and (max-width: 1200px) {
     .imagemFundo {
-        display: inline;
+        position: absolute;
         float: left;
         height: 800px;
-        width: 70%;
+        width: 100%;
+
     }
     .tituloProjeto {
         position: absolute;
@@ -270,12 +279,13 @@
         font-size: 24px;
     }
     .areaMenu {
+        position: relative;
         text-align: center;
         display: inline;
         float: right;
         width: 30%;
         height: 800px;
-        background-color: rgba(216, 216, 216, 0.329);
+        background-color: rgba(119, 119, 119, 0.301);
     }
     .conteudo {
         text-align: center;
@@ -353,8 +363,9 @@
         margin-left: 30%;
         background-color: red;
     }
-    .btCadastro:hover {
-        background-color: rgb(230, 49, 49);
+    .btCadastro a{
+        text-decoration: none;
+        color: white;
     }
     .tituloform {
         color: rgb(44, 44, 44);
