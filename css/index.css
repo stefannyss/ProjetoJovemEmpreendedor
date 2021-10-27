@@ -84,7 +84,7 @@
         display: inline-block;
         width: 100%;
         height: 30%;
-        background-image: url(../img/empreendedor.jpg);
+        background-image: url(../img/emp5.jpg);
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -222,13 +222,13 @@
         margin-top: 20px;
         font-family: 'Oswald', sans-serif;
         font-size: 26px;
-        color: brown;
+        color: rgb(255, 255, 255);
     }
     .tituloBanner {
         margin-top: 40px;
         font-family: 'Oswald', sans-serif;
         font-size: 30px;
-        color: brown;
+        color: rgb(255, 255, 255);
     }
     .btBanner {
         border-radius: 25px;
@@ -240,7 +240,7 @@
         width: 25%;
         height: 65px;
         background-color: red;
-        opacity: 0.75;
+        opacity: 0.85;
     }
     .btBanner a {
         color: white;
@@ -319,7 +319,7 @@
         display: inline-block;
         width: 100%;
         height: 30%;
-        background-image: url(../img/empreendedor.jpg);
+        background-image: url(../img/emp5.jpg);
         background-repeat: no-repeat;
         background-size: cover;
     }
