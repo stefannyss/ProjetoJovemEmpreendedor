@@ -1,473 +1,473 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&family=Shadows+Into+Light&display=swap');
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 @media only screen and (min-width: 1200px) {
-    .imagemFundo {
-        position: absolute;
-        float: left;
-        height: 990px;
-        width: 100%;
-    }
-    .tituloProjeto {
-        
+  .imagemFundo {
+    position: absolute;
+    float: left;
+    height: 990px;
+    width: 100%;
+  }
+  .tituloProjeto {
+    position: absolute;
+    text-align: justify;
+    margin-left: 12%;
+    margin-top: 26%;
+  }
+  .p1 {
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    color: black;
+    font-size: 45px;
+    background-color: white;
+    width: 125px;
+  }
+  .p2 {
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    color: black;
+    font-size: 42px;
+  }
+  .p3 {
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    color: black;
+    font-size: 32px;
+  }
+  .areaMenu {
+    position: relative;
+    text-align: center;
+    display: block;
+    float: right;
+    width: 25%;
+    height: 990px;
+    background-color: rgba(119, 119, 119, 0.301);
+  }
+  .conteudo {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    display: inline-block;
+    width: 100%;
+    height: 40%;
+    background-color: white;
+  }
+  .video {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    height: 40%;
+    margin-bottom: 5%;
+    background-color: white;
+  }
+  .divVideo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .banner {
+    text-align: center;
+    padding-bottom: 2%;
+    display: inline-block;
+    width: 100%;
+    height: 30%;
+    background-image: url(../img/emp5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  form {
+    margin-top: 20%;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    border-radius: 15px;
+    background-color: transparent;
+  }
+  .imgForm {
+    height: 25%;
+    width: 40%;
+  }
+  input {
+    width: 65%;
+    border: 1px solid rgb(150, 150, 150);
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 3%;
+    font-size: 16px;
+  }
+  select {
+    width: 64%;
+    border: 1px solid rgb(150, 150, 150);
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 3%;
+    font-size: 16px;
+  }
+  .btCadastro {
+    font-size: 18px;
+    display: block;
+    text-align: center;
+    border: none;
+    border-radius: 15px;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-weight: bold;
+    width: 40%;
+    height: 40px;
+    margin-left: 30%;
+    background-color: red;
+  }
+  .btCadastro a {
+    text-decoration: none;
+    color: white;
+  }
+  .btCadastro:hover {
+    background-color: rgb(230, 49, 49);
+  }
+  .tituloform {
+    color: rgb(219, 219, 219);
+    font-size: 24px;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 3%;
+  }
+  .subtituloform {
+    color: rgb(219, 219, 219);
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 5%;
+  }
+  h1 {
+    margin-right: auto;
+    margin-left: auto;
+    padding: 120px;
+    color: brown;
+    font-size: 24px;
+    width: 50%;
+    font-family: 'Oswald', sans-serif;
+  }
+  .card1 {
+    display: inline-block;
+    background-color: transparent;
+    height: 30%;
+    width: 25%;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+  .card2 {
+    display: inline-block;
+    background-color: transparent;
+    height: 30%;
+    width: 25%;
+    margin-right: 15%;
+  }
+  .tituloCard {
+    color: red;
+    text-align: justify;
+    font-size: 22px;
+    font-family: 'Oswald', sans-serif;
+  }
+  .conteudoCard {
+    text-align: justify;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+  }
+  .rodape {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    height: 40%;
+    background-color: white;
+  }
+  .imgRodape {
+    margin-top: 10px;
+    margin-left: 110px;
+    justify-content: space-around;
+  }
+  .redessociais {
+    float: right;
+    margin: 0;
+  }
+  .imgRedes {
+    margin-top: 15%;
+  }
+  [data-animacao] {
+    opacity: 0;
+    transition: 0.3s;
+  }
+  [data-animacao='left'] {
+    transform: translate3d(-50px, 0px, 0px);
+  }
+  [data-animacao='right'] {
+    transform: translate3d(50px, 0px, 0px);
+  }
+  [data-animacao].animacao {
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
+  }
+  .subtituloBanner {
+    margin-top: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 26px;
+    color: rgb(255, 255, 255);
+  }
+  .tituloBanner {
+    margin-top: 40px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+  }
+  .btBanner {
+    border-radius: 25px;
+    margin-top: 2%;
+    font-size: 24px;
+    text-align: center;
+    border: 2px solid red;
+    font-family: 'Oswald', sans-serif;
+    width: 25%;
+    height: 65px;
+    background-color: red;
+    opacity: 0.85;
+  }
+  .btBanner a {
+    color: white;
+    text-decoration: none;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .imagemFundo {
+    position: absolute;
+    float: left;
+    height: 800px;
+    width: 100%;
+  }
+  .tituloProjeto {
     position: absolute;
     text-align: justify;
     margin-left: 12%;
     margin-top: 32%;
-     
-    }
-   .p1 {
-        font-weight: bold;
-        font-family: 'Oswald', sans-serif;
-        color: black;
-        font-size: 45px;
-        background-color: white;
-        width: 125px;   
-    }
-   .p2 {
-        font-weight: bold;
-        font-family: 'Oswald', sans-serif;
-        color: black;
-        font-size: 42px;
-    }
-   .p3 {
-        font-weight: bold;
-        font-family: 'Oswald', sans-serif;
-        color: black;
-        font-size: 32px;
-    }
-    .areaMenu {
-        position: relative;
-        text-align: center;
-        display: block;
-        float: right;
-        width: 25%;
-        height: 990px;
-        background-color: rgba(119, 119, 119, 0.301);
-    }
-    .conteudo {
-        text-align: center;
-        font-family: 'Oswald', sans-serif;
-        display: inline-block;
-        width: 100%;
-        height: 40%;
-        background-color: white;
-    }
-    .video {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        flex-direction: column;
-        text-align: center;
-        display: inline-block;
-        width: 100%;
-        height: 40%;
-        margin-bottom: 5%;
-        background-color: white;
-    }
-    .divVideo {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .banner {
-        text-align: center;
-        padding-bottom:2%;
-        display: inline-block;
-        width: 100%;
-        height: 30%;
-        background-image: url(../img/emp5.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    form {
-        margin-top: 20%;
-        font-family: 'Oswald', sans-serif;
-        text-align: center;
-        border-radius: 15px;
-        background-color: transparent;
-    }
-    .imgForm {
-        height: 25%;
-        width: 40%;
-    }
-    input {
-        width: 65%;
-        border: 1px solid rgb(150, 150, 150);
-        border-radius: 10px;
-        padding: 10px;
-        margin-bottom: 3%;
-        font-size: 16px;
-    }
-    select {
-        width: 64%;
-        border: 1px solid rgb(150, 150, 150);
-        border-radius: 10px;
-        padding: 10px;
-        margin-bottom: 3%;
-        font-size: 16px;
-    }
-    .btCadastro {
-        font-size: 18px;
-        display: block;
-        text-align: center;
-        border: none;
-        border-radius: 15px;
-        font-family: 'Oswald', sans-serif;
-        color: white;
-        font-weight: bold;
-        width: 40%;
-        height: 40px;
-        margin-left: 30%;
-        background-color: red;
-    }
-    .btCadastro a{
-        text-decoration: none;
-        color: white;
-    }
-    .btCadastro:hover {
-        background-color: rgb(230, 49, 49);
-    }
-    .tituloform {
-        color: rgb(219, 219, 219);
-        font-size: 24px;
-        font-family: 'Oswald', sans-serif;
-        margin-bottom: 3%;
-    }
-    .subtituloform {
-        color: rgb(219, 219, 219);
-        font-size: 20px;
-        font-family: 'Oswald', sans-serif;
-        margin-bottom: 5%;
-    }
-    h1 {
-        margin-right: auto;
-        margin-left: auto;
-        padding: 120px;
-        color: brown;
-        font-size: 24px;
-        width: 50%;
-        font-family: 'Oswald', sans-serif;
-    }
-    .card1 {
-        display: inline-block;
-        background-color: transparent;
-        height: 30%;
-        width: 25%;
-        margin-left: 15%;
-        margin-right: 15%;
-    }
-    .card2 {
-        display: inline-block;
-        background-color: transparent;
-        height: 30%;
-        width: 25%;
-        margin-right: 15%;
-    }
-    .tituloCard {
-        color: red;
-        text-align: justify;
-        font-size: 22px;
-        font-family: 'Oswald', sans-serif;
-    }
-    .conteudoCard {
-        text-align: justify;
-        font-size: 20px;
-        font-family: 'Oswald', sans-serif;
-    }
-    .rodape {
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-        display: inline-block;
-        width: 100%;
-        height: 40%;
-        background-color: white;
-    }
-    .imgRodape {
-        margin-top: 10px;
-        margin-left: 110px;
-        justify-content: space-around;
-    }
-    .redessociais {
-        float: right;
-        margin: 0;
-    }
-    .imgRedes {
-        margin-top: 15%;
-    }
-    [data-animacao] {
-        opacity: 0;
-        transition: .3s;
-    }
-    [data-animacao="left"] {
-        transform: translate3d(-50px, 0px, 0px);
-    }
-    [data-animacao="right"] {
-        transform: translate3d(50px, 0px, 0px);
-    }
-    [data-animacao].animacao {
-        opacity: 1;
-        transform: translate3d(0px, 0px, 0px);
-    }
-    .subtituloBanner {
-        margin-top: 20px;
-        font-family: 'Oswald', sans-serif;
-        font-size: 26px;
-        color: rgb(255, 255, 255);
-    }
-    .tituloBanner {
-        margin-top: 40px;
-        font-family: 'Oswald', sans-serif;
-        font-size: 30px;
-        color: rgb(255, 255, 255);
-    }
-    .btBanner {
-        border-radius: 25px;
-        margin-top: 2%;
-        font-size: 24px;
-        text-align: center;
-        border: 2px solid red;
-        font-family: 'Oswald', sans-serif;
-        width: 25%;
-        height: 65px;
-        background-color: red;
-        opacity: 0.85;
-    }
-    .btBanner a {
-        color: white;
-        text-decoration: none;
-    }
-}
-
-@media only screen and (max-width: 1200px) {
-    .imagemFundo {
-        position: absolute;
-        float: left;
-        height: 800px;
-        width: 100%;
-
-    }
-    .tituloProjeto {
-        position: absolute;
-        text-align: justify;
-        margin-left: 12%;
-        margin-top: 25%;
-    }
-    .tituloProjeto .p1 {
-        font-weight: bold;
-        font-family: 'Oswald', sans-serif;
-        color: rgb(44, 44, 44);
-        font-size: 42px;
-    }
-    .tituloProjeto .p2 {
-        font-weight: bold;
-        font-family: 'Oswald', sans-serif;
-        color: white;
-        font-size: 42px;
-    }
-    .tituloProjeto .p3 {
-        font-family: 'Oswald', sans-serif;
-        color: white;
-        font-size: 24px;
-    }
-    .areaMenu {
-        position: relative;
-        text-align: center;
-        display: inline;
-        float: right;
-        width: 30%;
-        height: 800px;
-        background-color: rgba(119, 119, 119, 0.301);
-    }
-    .conteudo {
-        text-align: center;
-        font-family: 'Oswald', sans-serif;
-        display: inline-block;
-        width: 100%;
-        height: 40%;
-        background-color: white;
-    }
-    .video {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        flex-direction: column;
-        text-align: center;
-        display: inline-block;
-        width: 100%;
-        height: 40%;
-        margin-bottom: 5%;
-        background-color: white;
-    }
-    .divVideo {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .banner {
-        text-align: center;
-        padding-bottom: 2%;
-        display: inline-block;
-        width: 100%;
-        height: 30%;
-        background-image: url(../img/emp5.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    form {
-        margin-top: 20%;
-        font-family: 'Oswald', sans-serif;
-        text-align: center;
-        border-radius: 15px;
-        background-color: transparent;
-    }
-    .imgForm {
-        height: 25%;
-        width: 40%;
-    }
-    input {
-        width: 75%;
-        border: 1px solid rgb(150, 150, 150);
-        border-radius: 10px;
-        padding: 8px;
-        margin-bottom: 3%;
-        font-size: 16px;
-    }
-    select {
-        width: 75%;
-        border: 1px solid rgb(150, 150, 150);
-        border-radius: 10px;
-        padding: 8px;
-        margin-bottom: 3%;
-        font-size: 16px;
-    }
-    .btCadastro {
-        font-size: 18px;
-        display: block;
-        text-align: center;
-        border: none;
-        border-radius: 15px;
-        font-family: 'Oswald', sans-serif;
-        color: white;
-        font-weight: bold;
-        width: 40%;
-        height: 40px;
-        margin-left: 30%;
-        background-color: red;
-    }
-    .btCadastro a{
-        text-decoration: none;
-        color: white;
-    }
-    .tituloform {
-        color: rgb(44, 44, 44);
-        font-size: 24px;
-        font-family: 'Oswald', sans-serif;
-        margin-bottom: 3%;
-    }
-    .subtituloform {
-        color: rgb(44, 44, 44);
-        font-size: 20px;
-        font-family: 'Oswald', sans-serif;
-        margin-bottom: 5%;
-    }
-    h1 {
-        margin-right: auto;
-        margin-left: auto;
-        padding: 120px;
-        color: brown;
-        font-size: 24px;
-        width: 60%;
-        font-family: 'Oswald', sans-serif;
-    }
-    .card1 {
-        display: inline-block;
-        background-color: transparent;
-        height: 30%;
-        width: 25%;
-        margin-left: 15%;
-        margin-right: 15%;
-    }
-    .card2 {
-        display: inline-block;
-        background-color: transparent;
-        height: 30%;
-        width: 25%;
-        margin-right: 15%;
-    }
-    .tituloCard {
-        color: red;
-        text-align: justify;
-        font-size: 20px;
-        font-family: 'Oswald', sans-serif;
-    }
-    .conteudoCard {
-        text-align: justify;
-        font-size: 16px;
-        font-family: 'Oswald', sans-serif;
-    }
-    .rodape {
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-        display: inline-block;
-        width: 100%;
-        height: 40%;
-        background-color: white;
-    }
-    .imgRodape {
-        margin-left: auto;
-        margin-top: 10px;
-        margin-right: auto;
-    }
-    .imgRedes {
-        margin-top: 15%;
-    }
-    [data-animacao] {
-        opacity: 0;
-        transition: .3s;
-    }
-    [data-animacao="left"] {
-        transform: translate3d(-50px, 0px, 0px);
-    }
-    [data-animacao="right"] {
-        transform: translate3d(50px, 0px, 0px);
-    }
-    [data-animacao].animacao {
-        opacity: 1;
-        transform: translate3d(0px, 0px, 0px);
-    }
-    .subtituloBanner {
-        margin-top: 20px;
-        font-family: 'Oswald', sans-serif;
-        font-size: 26px;
-        color: brown;
-    }
-    .tituloBanner {
-        margin-top: 40px;
-        font-family: 'Oswald', sans-serif;
-        font-size: 30px;
-        color: brown;
-    }
-    .btBanner {
-        border-radius: 25px;
-        margin-top: 40px;
-        font-size: 24px;
-        text-align: center;
-        border: 2px solid red;
-        font-family: 'Oswald', sans-serif;
-        color: black;
-        width: 25%;
-        height: 65px;
-        background-color: red;
-    }
-    .btBanner a {
-        color: white;
-        text-decoration: none;
-    }
+  }
+  .p1 {
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    color: black;
+    font-size: 45px;
+    background-color: white;
+    width: 125px;
+  }
+  .p2 {
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    color: black;
+    font-size: 42px;
+  }
+  .p3 {
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    color: black;
+    font-size: 32px;
+  }
+  .areaMenu {
+    position: relative;
+    text-align: center;
+    display: inline;
+    float: right;
+    width: 30%;
+    height: 800px;
+    background-color: rgba(119, 119, 119, 0.301);
+  }
+  .conteudo {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    display: inline-block;
+    width: 100%;
+    height: 40%;
+    background-color: white;
+  }
+  .video {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    height: 40%;
+    margin-bottom: 5%;
+    background-color: white;
+  }
+  .divVideo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .banner {
+    text-align: center;
+    padding-bottom: 2%;
+    display: inline-block;
+    width: 100%;
+    height: 30%;
+    background-image: url(../img/emp5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  form {
+    margin-top: 20%;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    border-radius: 15px;
+    background-color: transparent;
+  }
+  .imgForm {
+    height: 25%;
+    width: 40%;
+  }
+  input {
+    width: 75%;
+    border: 1px solid rgb(150, 150, 150);
+    border-radius: 10px;
+    padding: 8px;
+    margin-bottom: 3%;
+    font-size: 16px;
+  }
+  select {
+    width: 75%;
+    border: 1px solid rgb(150, 150, 150);
+    border-radius: 10px;
+    padding: 8px;
+    margin-bottom: 3%;
+    font-size: 16px;
+  }
+  .btCadastro {
+    font-size: 18px;
+    display: block;
+    text-align: center;
+    border: none;
+    border-radius: 15px;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-weight: bold;
+    width: 40%;
+    height: 40px;
+    margin-left: 30%;
+    background-color: red;
+  }
+  .btCadastro a {
+    text-decoration: none;
+    color: white;
+  }
+  .tituloform {
+    color: rgb(44, 44, 44);
+    font-size: 24px;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 3%;
+  }
+  .subtituloform {
+    color: rgb(44, 44, 44);
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 5%;
+  }
+  h1 {
+    margin-right: auto;
+    margin-left: auto;
+    padding: 120px;
+    color: brown;
+    font-size: 24px;
+    width: 60%;
+    font-family: 'Oswald', sans-serif;
+  }
+  .card1 {
+    display: inline-block;
+    background-color: transparent;
+    height: 30%;
+    width: 25%;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+  .card2 {
+    display: inline-block;
+    background-color: transparent;
+    height: 30%;
+    width: 25%;
+    margin-right: 15%;
+  }
+  .tituloCard {
+    color: red;
+    text-align: justify;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+  }
+  .conteudoCard {
+    text-align: justify;
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+  }
+  .rodape {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    height: 40%;
+    background-color: white;
+  }
+  .imgRodape {
+    margin-left: auto;
+    margin-top: 10px;
+    margin-right: auto;
+  }
+  .imgRedes {
+    margin-top: 15%;
+  }
+  [data-animacao] {
+    opacity: 0;
+    transition: 0.3s;
+  }
+  [data-animacao='left'] {
+    transform: translate3d(-50px, 0px, 0px);
+  }
+  [data-animacao='right'] {
+    transform: translate3d(50px, 0px, 0px);
+  }
+  [data-animacao].animacao {
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
+  }
+  .subtituloBanner {
+    margin-top: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 26px;
+    color: brown;
+  }
+  .tituloBanner {
+    margin-top: 40px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    color: brown;
+  }
+  .btBanner {
+    border-radius: 25px;
+    margin-top: 40px;
+    font-size: 24px;
+    text-align: center;
+    border: 2px solid red;
+    font-family: 'Oswald', sans-serif;
+    color: black;
+    width: 25%;
+    height: 65px;
+    background-color: red;
+  }
+  .btBanner a {
+    color: white;
+    text-decoration: none;
+  }
 }
