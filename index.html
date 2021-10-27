@@ -1,133 +1,186 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/index.css" type="text/css">
-    <link rel="shortcut icon" href="img/iconeUPF.png" type="image/x-png">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/index.css" type="text/css" />
+    <link rel="shortcut icon" href="img/iconeUPF.png" type="image/x-png" />
     <title>Jovem Empreendedor</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="imagemTitulo">
-        <img class="imagemFundo" src="img/upf.jpg" alt="">
+      <img class="imagemFundo" src="img/upf.jpg" alt="" />
     </div>
     <div class="tituloProjeto">
-        <p class="p1">Projeto</p>
-        <p class="p2">Jovem Empreendedor</p>
-        <p class="p3">Experiências que transformam ideias</p>
+      <p class="p1">Projeto</p>
+      <p class="p2">Jovem Empreendedor</p>
+      <p class="p3">Experiências que transformam ideias</p>
     </div>
     <div class="areaMenu">
-        <form>
-            <img class="imgForm" src="img/logoUPFnome.png">
-            <div class="tituloform">SEJA UM EMPREENDEDOR</div>
-            <div class="subtituloform">Preencha o formulário e inscreva-se!</div>
-            <input type="text" placeholder="Nome" required>
-            <input type="email" placeholder="E-mail" required>
-            <input type="tel" placeholder="Telefone" required>
-            <input type="text" placeholder="Data de Nascimento" onfocus="(this.type='date')"
-                onblur="if(this.value==''){this.type='text'}" required>
-            <input type="text" placeholder="Escola">
-            <select required>
-                <option selected disabled value="">Ano que está cursando</option>
-                <option>Priemiro Ano</option>
-                <option>Segundo Ano</option>
-                <option>Terceiro Ano</option>
-            </select>
-            <input type="text" placeholder="Cidade">
-            <input type="text" placeholder="Primeira opção de curso para graduação" required>
-            <input type="text" placeholder="Segunda opção de curso para graduação">
-            <button class="btCadastro" onclick="cadastroRealizado()" type="submit"><a href="confirmacao.html">CADASTRAR</a></button>
-        </form>
+      <form>
+        <img class="imgForm" src="img/logoUPFnome.png" />
+        <div class="tituloform">SEJA UM EMPREENDEDOR</div>
+        <div class="subtituloform">Preencha o formulário e inscreva-se!</div>
+        <input type="text" placeholder="Nome" required />
+        <input type="email" placeholder="E-mail" required />
+        <input type="tel" placeholder="Telefone" required />
+        <input
+          type="text"
+          placeholder="Data de Nascimento"
+          onfocus="(this.type='date')"
+          onblur="if(this.value==''){this.type='text'}"
+          required
+        />
+        <input type="text" placeholder="Escola" />
+        <select required>
+          <option selected disabled value="">Ano que está cursando</option>
+          <option>Priemiro Ano</option>
+          <option>Segundo Ano</option>
+          <option>Terceiro Ano</option>
+        </select>
+        <input type="text" placeholder="Cidade" />
+        <input
+          type="text"
+          placeholder="Primeira opção de curso para graduação"
+          required
+        />
+        <input
+          type="text"
+          placeholder="Segunda opção de curso para graduação"
+        />
+        <button class="btCadastro" onclick="cadastroRealizado()" type="submit">
+          <a href="confirmacao.html">CADASTRAR</a>
+        </button>
+      </form>
     </div>
     <div class="conteudo">
-        <h1>Desenvolva suas ideias dentro da Universidade e conte com o auxílio de professores e profissionais de
-            diferentes áreas para seguir no mundo dos negócios.</h1>
-        <div class="card1" data-animacao="left">
-            <table>
-                <tr>
-                    <td><img style="margin-right:15px;" src="img/ideia.png"></td>
-                    <td>
-                        <p class="tituloCard">Conecte-se à transformação</p>
-                        <p class="conteudoCard">Aperfeiçoe os seus conhecimentos, conheça a experiência acadêmica e se
-                            conecte ao mercado com a ajuda do Instituto Manager, o Google for Education e a UPF.</p>
-                    </td>
-                </tr>
-            </table>
-        </div>
-        <div class="card2" data-animacao="right">
-            <table>
-                <tr>
-                    <td><img style="margin-right:15px;" src="img/mao.png"></td>
-                    <td>
-                        <p class="tituloCard">Você no mundo dos negócios</p>
-                        <p class="conteudoCard">Desenvolva sua própria empresa em 12 meses. Planeje cada setor ou
-                            serviço, aprenda a descobrir oportunidades que surgem no dia-a-dia e crie a sua identidade
-                            profissional.</p>
-                    </td>
-                </tr>
-            </table>
-        </div>
-        <div class="card1" data-animacao="left">
-            <table>
-                <tr>
-                    <td><img style="margin-right:15px;" src="img/cavalo.png"></td>
-                    <td>
-                        <p class="tituloCard">Mentorias</p>
-                        <p class="conteudoCard">Conte com mentorias do Balcão do Empreendedor UPF.</p>
-                    </td>
-                </tr>
-            </table>
-        </div>
-        <div class="card2" data-animacao="right">
-            <table>
-                <tr>
-                    <td><img style="margin-right:15px;" src="img/biblioteca.png"></td>
-                    <td>
-                        <p class="tituloCard">Biblioteca Virtual</p>
-                        <p class="conteudoCard">Tenha acesso à biblioteca virtual da Universidade.</p>
-                    </td>
-                </tr>
-            </table>
-        </div>
+      <h1>
+        Desenvolva suas ideias dentro da Universidade e conte com o auxílio de
+        professores e profissionais de diferentes áreas para seguir no mundo dos
+        negócios.
+      </h1>
+      <div class="card1" data-animacao="left">
+        <table>
+          <tr>
+            <td><img style="margin-right: 15px" src="img/ideia.png" /></td>
+            <td>
+              <p class="tituloCard">Conecte-se à transformação</p>
+              <p class="conteudoCard">
+                Aperfeiçoe os seus conhecimentos, conheça a experiência
+                acadêmica e se conecte ao mercado com a ajuda do Instituto
+                Manager, o Google for Education e a UPF.
+              </p>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="card2" data-animacao="right">
+        <table>
+          <tr>
+            <td><img style="margin-right: 15px" src="img/mao.png" /></td>
+            <td>
+              <p class="tituloCard">Você no mundo dos negócios</p>
+              <p class="conteudoCard">
+                Desenvolva sua própria empresa em 12 meses. Planeje cada setor
+                ou serviço, aprenda a descobrir oportunidades que surgem no
+                dia-a-dia e crie a sua identidade profissional.
+              </p>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="card1" data-animacao="left">
+        <table>
+          <tr>
+            <td><img style="margin-right: 15px" src="img/cavalo.png" /></td>
+            <td>
+              <p class="tituloCard">Mentorias</p>
+              <p class="conteudoCard">
+                Conte com mentorias do Balcão do Empreendedor UPF.
+              </p>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="card2" data-animacao="right">
+        <table>
+          <tr>
+            <td><img style="margin-right: 15px" src="img/biblioteca.png" /></td>
+            <td>
+              <p class="tituloCard">Biblioteca Virtual</p>
+              <p class="conteudoCard">
+                Tenha acesso à biblioteca virtual da Universidade.
+              </p>
+            </td>
+          </tr>
+        </table>
+      </div>
     </div>
     <div class="video">
-        <h1>Assista agora os videos dos apoiadores, explicando um pouco mais sobre o que é este projeto.</h1>
-        <div class="divVideo">
-            <iframe data-animacao="left" height="400" width="400" src="videoUPF.mp4"></iframe>
-            <iframe data-animacao="right" height="400" width="400" src="videoXP.mp4"></iframe>
-        </div>
+      <h1>
+        Assista agora os videos dos apoiadores, explicando um pouco mais sobre o
+        que é este projeto.
+      </h1>
+      <div class="divVideo">
+        <iframe
+          data-animacao="left"
+          height="400"
+          width="400"
+          src="videoUPF.mp4"
+        ></iframe>
+        <iframe
+          data-animacao="right"
+          height="400"
+          width="400"
+          src="videoXP.mp4"
+        ></iframe>
+      </div>
     </div>
     <div class="banner">
-        <p class="tituloBanner">SEJA UM JOVEM EMPREENDEDOR</p>
-        <p class="subtituloBanner">INSCREVA-SE JÁ!</p>
-        <button type="button" id="voltaraotopo" class="btBanner"><a>QUERO ME INSCREVER!</a></button>
+      <p class="tituloBanner">SEJA UM JOVEM EMPREENDEDOR</p>
+      <p class="subtituloBanner">INSCREVA-SE JÁ!</p>
+      <button type="button" id="voltaraotopo" class="btBanner">
+        <a>QUERO ME INSCREVER!</a>
+      </button>
     </div>
 
-    <body class="rodape">
-        <img class="imgRodape" src="img/upfrodape.jpg" alt="">
-        <img class="imgRodape" src="img/upfextensao.jpg" alt="">
-        <img class="imgRodape" src="img/manager.jpg" alt="">
-        <span class="redessociais">
-            <a href="https://www.instagram.com/universidadeupf/" target="_blank"> <img class="imgRedes"
-                    src="img/instagram.png" alt=""></a>
-            <a href="https://www.facebook.com/universidadedepassofundo" target="_blank"><img class="imgRedes"
-                    src="img/facebook.png" alt=""></a>
-            <a href="https://www.linkedin.com/edu/school?id=10612" target="_blank"><img class="imgRedes"
-                    src="img/linkedin.png" alt=""></a>
-            <a href="https://www.flickr.com/universidadedepassofundo/" target="_blank"><img class="imgRedes"
-                    src="img/flickr.png" alt=""></a>
-            <a href="https://www.youtube.com/UPFoficial" target="_blank"><img class="imgRedes" src="img/youtube.png"
-                    alt=""></a>
-            <a href="https://twitter.com/universidadeupf" target="_blank"><img class="imgRedes" src="img/twitter.png"
-                    alt=""></a>
-            <a href="https://wa.me/5554912839821" target="_blank"><img class="imgRedes" src="img/whatsapp.png"
-                    alt=""></a>
-        </span>
-    </body>
-<head>
+    <div class="rodape">
+      <img class="imgRodape" src="img/upfrodape.jpg" alt="" />
+      <img class="imgRodape" src="img/upfextensao.jpg" alt="" />
+      <img class="imgRodape" src="img/manager.jpg" alt="" />
+      <span class="redessociais">
+        <a href="https://www.instagram.com/universidadeupf/" target="_blank">
+          <img class="imgRedes" src="img/instagram.png" alt=""
+        /></a>
+        <a
+          href="https://www.facebook.com/universidadedepassofundo"
+          target="_blank"
+          ><img class="imgRedes" src="img/facebook.png" alt=""
+        /></a>
+        <a href="https://www.linkedin.com/edu/school?id=10612" target="_blank"
+          ><img class="imgRedes" src="img/linkedin.png" alt=""
+        /></a>
+        <a
+          href="https://www.flickr.com/universidadedepassofundo/"
+          target="_blank"
+          ><img class="imgRedes" src="img/flickr.png" alt=""
+        /></a>
+        <a href="https://www.youtube.com/UPFoficial" target="_blank"
+          ><img class="imgRedes" src="img/youtube.png" alt=""
+        /></a>
+        <a href="https://twitter.com/universidadeupf" target="_blank"
+          ><img class="imgRedes" src="img/twitter.png" alt=""
+        /></a>
+        <a href="https://wa.me/5554912839821" target="_blank"
+          ><img class="imgRedes" src="img/whatsapp.png" alt=""
+        /></a>
+      </span>
+    </div>
+  </body>
+  <head>
     <script type="text/javascript" src="js/animacao.js"></script>
     <script type="text/javascript" src="js/alert.js"></script>
     <script type="text/javascript" src="js/voltaraotopo.js"></script>
-</head>
+  </head>
 </html>
