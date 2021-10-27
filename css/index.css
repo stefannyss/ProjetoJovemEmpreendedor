@@ -23,6 +23,8 @@
         font-family: 'Oswald', sans-serif;
         color: rgb(44, 44, 44);
         font-size: 42px;
+        background-color: white;
+        width: 120px;
     }
     .tituloProjeto .p2 {
         font-weight: bold;
@@ -184,10 +186,11 @@
     }
     .imgRodape {
         margin-top: 10px;
-        margin-right: 100px;
+        margin-left: 110px;
     }
     .redessociais {
         float: right;
+        margin: 0;
     }
     .imgRedes {
         margin-top: 15%;
