@@ -13,36 +13,32 @@
         width: 100%;
     }
     .tituloProjeto {
-        border-radius: 15px;
-        margin-top: 25%;
-        margin-left: 10%;
-        position: absolute;
-        text-align: justify;
-        width: 20%;
-        height: 20%;
-        background-color: rgb(245, 245, 245,0.1);
+        
+    position: absolute;
+    text-align: justify;
+    margin-left: 12%;
+    margin-top: 32%;
+     
     }
-    .tituloProjeto .p1 {
-        margin-top: 1%;
-        margin-left: 5%;
-        font-weight: bolder;
-        font-family: 'Oswald', sans-serif;
-        color: rgb(0, 0, 0);
-        font-size: 42px;
-        width: 120px;
-    }
-    .tituloProjeto .p2 {
-        margin-left: 5%;
+   .p1 {
         font-weight: bold;
         font-family: 'Oswald', sans-serif;
-        color: rgb(219, 219, 219);
+        color: black;
+        font-size: 45px;
+        background-color: white;
+        width: 125px;   
+    }
+   .p2 {
+        font-weight: bold;
+        font-family: 'Oswald', sans-serif;
+        color: black;
         font-size: 42px;
     }
-    .tituloProjeto .p3 {
-        margin-left: 5%;
+   .p3 {
+        font-weight: bold;
         font-family: 'Oswald', sans-serif;
-        color: rgb(219, 219, 219);
-        font-size: 24px;
+        color: black;
+        font-size: 32px;
     }
     .areaMenu {
         position: relative;
