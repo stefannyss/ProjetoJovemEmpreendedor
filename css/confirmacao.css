@@ -43,8 +43,14 @@ button{
    font-family: 'Oswald', sans-serif;
    background-color:whitesmoke;
 }
+button a {
+   text-decoration: none;
+   color: black;
+}
 
 button:hover{
    background-color:red;
-   color:whitesmoke;
+}
+button a:hover{
+   color:white;
 }

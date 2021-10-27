@@ -70,7 +70,7 @@
     }
     .banner {
         text-align: center;
-        margin: 0;
+        padding-bottom:2%;
         display: inline-block;
         width: 100%;
         height: 30%;
@@ -118,6 +118,10 @@
         height: 40px;
         margin-left: 30%;
         background-color: red;
+    }
+    .btCadastro a{
+        text-decoration: none;
+        color: white;
     }
     .btCadastro:hover {
         background-color: rgb(230, 49, 49);
@@ -216,16 +220,19 @@
     }
     .btBanner {
         border-radius: 25px;
-        margin-top: 40px;
+        margin-top: 2%;
         font-size: 24px;
         text-align: center;
         border: 2px solid red;
         font-family: 'Oswald', sans-serif;
-        color: black;
         width: 25%;
         height: 65px;
         background-color: red;
         opacity: 0.75;
+    }
+    .btBanner a {
+        color: white;
+        text-decoration: none;
     }
 }
 
@@ -294,7 +301,7 @@
     }
     .banner {
         text-align: center;
-        margin: 0;
+        padding-bottom: 2%;
         display: inline-block;
         width: 100%;
         height: 30%;
@@ -447,5 +454,9 @@
         width: 25%;
         height: 65px;
         background-color: red;
+    }
+    .btBanner a {
+        color: white;
+        text-decoration: none;
     }
 }
